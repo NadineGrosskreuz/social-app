@@ -1,4 +1,7 @@
-body {
-  background-color: grey;
-  font-family: "Poppins", sans-serif;
-}
+@import "./components/base.css";
+@import "./components/button.css";
+@import "./components/card.css";
+@import "./components/footer.css";
+@import "./components/header.css";
+@import "./components/nav.css";
+@import "./components/stories.css";
