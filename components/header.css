@@ -1,0 +1,195 @@
+.header {
+	--white: #fff;
+	--socialWhite: #ecebed;
+	--light-grey: #727477;
+	--Dim-Black-30Perc: #0000004d;
+	--icon-background: black;
+	--profilePicture-border: black;
+	--profilePicture-borderGradient: linear-gradient(90deg, #f62e8e, #ac1af0);
+}
+
+.header {
+	padding: 4.5rem 1.5rem 2rem;
+	color: var(--white);
+}
+
+.header--home,
+.header--alert {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	gap: 2rem;
+}
+
+.header--search,
+.header--profile {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+}
+
+.header__headline--home,
+.header__headline--search,
+.header__headline--alert {
+	font-size: 1.125rem;
+	font-weight: 700px;
+}
+
+.header__mailalert {
+	margin-top: 0.5rem;
+}
+
+.header__mailalert img {
+	align-self: end;
+	padding: 0.4rem;
+	border: 1px solid var(--light-grey);
+	border-radius: 50%;
+}
+
+.header__search__nav {
+	width: 100%;
+}
+
+.header--profile {
+	position: relative;
+	justify-content: center;
+}
+
+.header__icons {
+	width: 100%;
+	height: 10rem;
+	background-image: url(../images/steve-johnson-5MTf9XyVVgM-unsplash.jpg);
+	background-position: -10rem;
+	background-size: cover;
+}
+
+.header__icons__wrap {
+	width: inherit;
+	height: inherit;
+	background-color: var(--Dim-Black-30Perc);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.5rem;
+}
+
+.header__icons__alert {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.header__icons__alert img {
+	height: 2rem;
+	width: 2rem;
+	background-color: var(--icon-background);
+	padding: 0.2rem;
+	border: 1.5px solid var(--light-grey);
+	border-radius: 50%;
+}
+
+.header__profile__information {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 2rem;
+	font-size: 0.875rem;
+}
+
+.header__profile__details {
+	padding-top: 4.75rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.header__profile__name {
+	font-size: 1.125rem;
+	font-weight: 700px;
+}
+
+.header__profile__location {
+	color: var(--light-grey);
+}
+
+.header__profile__quote {
+	color: var(--socialWhite);
+}
+
+.header__profile__statistic {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	color: var(--white);
+	font-weight: 700px;
+}
+
+.header__profile__statistic__stat {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+}
+
+.header__profile__followers {
+	color: var(--light-grey);
+	font-weight: 600px;
+}
+
+.header__profile__followers--bold {
+	color: var(--white);
+	font-weight: 700px;
+}
+
+.header__profile__following {
+	color: var(--light-grey);
+	font-weight: 600px;
+}
+
+.header__profile__following--bold {
+	color: var(--white);
+	font-weight: 700px;
+}
+
+.header__profile__button {
+	color: var(--white);
+	font-weight: 700px;
+	padding: 0.5rem 2rem;
+	text-decoration: none;
+	border: 1px solid var(--light-grey);
+	border-radius: 25px;
+}
+
+.header__profile__nav {
+	width: 100%;
+}
+
+.profile__picture__wrap {
+	display: inline-block;
+	border-radius: 50%;
+	background-image: var(--profilePicture-borderGradient);
+	padding: 0.1rem;
+}
+
+.profile__picture__wrap--profile {
+	position: absolute;
+	top: 9.5rem;
+	left: calc(50% - 4.75);
+}
+
+.profile__picture {
+	align-self: center;
+	display: block;
+	width: 9.5rem;
+	border-radius: 50%;
+	border: 0.2rem solid var(--profilePicture-border);
+}
+
+.profile__picture--home {
+	width: 3.5rem;
+}
