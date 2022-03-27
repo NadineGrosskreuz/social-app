@@ -1,0 +1,16 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: sticky;
+  bottom: 0px;
+  align-items: center;
+  background-color: black;
+  padding: 10px;
+}
+
+.footer_icon_plus {
+  border-radius: 50%;
+  background: rgba(246, 46, 142, 1);
+  padding: 5px;
+}
