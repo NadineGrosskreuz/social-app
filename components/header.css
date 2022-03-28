@@ -14,6 +14,12 @@
   background: rgba(50, 52, 54, 1);
   font-size: 14px;
   color: rgba(236, 235, 237, 1);
+  border: none;
+}
+
+.search__input::placeholder {
+  color: azure;
+  opacity: 1;
 }
 
 .header__search__button {
@@ -30,4 +36,5 @@
   align-items: flex-end;
   align-items: center;
   transform: translate(-230%);
+  border: none;
 }
