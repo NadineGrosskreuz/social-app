@@ -67,8 +67,8 @@
 
 .card__content img {
   border-radius: 16px;
-  height: 18rem;
-  width: 32.7rem;
+
+  /* width: 32.7rem; */
 }
 
 .posts__card__footer {
