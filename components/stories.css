@@ -1,27 +1,16 @@
 .stories {
-  display: flex;
-  justify-content: space-around;
-  margin: 24px;
+	display: flex;
+	justify-content: space-around;
+	margin: 24px;
 }
 
 .stories__articles {
-  height: 140px;
-  position: relative;
+	height: 140px;
+	position: relative;
 }
 
 .stories__backgroundImage {
-  width: 100px;
-  height: 140px;
-  border-radius: 16px;
-}
-
-.profile__picture--home {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  position: absolute;
-  bottom: 5px;
-  right: 30px;
-  padding: 4px;
-  background: linear-gradient(90deg, #f62e8e, #ac1af0);
+	width: 100px;
+	height: 140px;
+	border-radius: 16px;
 }
