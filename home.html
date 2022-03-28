@@ -1,27 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header class="header header--home">
-      <h1 class="header__headline--home">Good Morning, User</h1>
-      <div class="header__mailalert">
-        <a href="#">
-          <span> <img src="/images/mail_icon.svg" alt="mail_icon" /> </span
-        ></a>
-      </div>
-    </header>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Home</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<header class="header header--home">
+			<h1 class="header__headline--home">Good Morning, User</h1>
+			<div class="header__mailalert">
+				<a href="#">
+					<span> <img src="/images/mail_icon.svg" alt="mail_icon" /> </span
+				></a>
+			</div>
+		</header>
+
 
     <main>
       <section class="stories">
@@ -62,6 +63,7 @@
           />
         </article>
       </section>
+      <!-- <div class="reel--post__divider"></div> -->
       <section class="posts">
         <article class="card">
           <div class="card__header">
@@ -149,12 +151,22 @@
       </section>
     </main>
     <footer>
-      <img src="./images/feed.svg" alt="feed icon" />
-      <img src="./images/search.svg" alt="seach icon" />
+      <img class="footer_icon_feed" src="./images/feed.svg" alt="feed icon" />
+      <img
+        class="footer_icon_search"
+        src="./images/search.svg"
+        alt="seach icon"
+      />
 
-      <img src="./images/Plus.svg" alt="plus icon" />
-      <img src="./images/bell.svg" alt="bell icon" />
-      <img src="./images/profil.svg" alt="profil icon" />
+
+      <img class="footer_icon_plus" src="./images/Plus.svg" alt="plus icon" />
+      <img class="footer_icon_bell" src="./images/bell.svg" alt="bell icon" />
+      <img
+        class="footer_icon_profil"
+        src="./images/profil.svg"
+        alt="profil icon"
+      />
     </footer>
   </body>
+
 </html>

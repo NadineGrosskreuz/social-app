@@ -1,61 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header class="header header--profile">
-      <section class="header__icons">
-        <img src="./images/arrow.svg" alt="arrow icon" />
-        <div class="header__icons__alert">
-          <img src="./images/mail_icon.svg" alt="mail icon" />
-          <img src="./images/bookmark.svg" alt="bookmark icon" />
-        </div>
-      </section>
-      <img
-        class="profile__picture"
-        src="https://source.unsplash.com/random/80x80/?people"
-        alt="people"
-      />
-      <section class="header__profile__information">
-        <div class="header__profile__details">
-          <h1 class="header__profile__name">User Name</h1>
-          <p class="header__profile__location">Brooklyn, NY</p>
-          <p class="header__profile__quote">
-            Writer by Profession. Artist by Passion!
-          </p>
-        </div>
-        <div class="header__profile__statistic">
-          <div class="header__profile__followers">
-            <p class="header__profile__followers--bold">2,467</p>
-            <p>Followers</p>
-          </div>
-          <div class="header__profile__following">
-            <p class="header__profile__following--bold">1,589</p>
-            <p>Following</p>
-          </div>
-          <a class="header__profile__button" href="#">Edit Profile</a>
-        </div>
-      </section>
-      <section class="header__profile__nav">
-        <nav class="nav nav--tab">
-          <a class="tab__element" href="#">Posts</a>
-          <a class="tab__element" href="#">Stories</a>
-          <a class="tab__element" href="#">Liked</a>
-          <a class="tab__element" href="#">Tagged</a>
-        </nav>
-      </section>
-    </header>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Home</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<header class="header header--profile">
+			<section class="header__icons">
+				<div class="header__icons__wrap">
+					<img src="./images/arrow.svg" alt="arrow icon" />
+					<div class="header__icons__alert">
+						<img src="./images/mail_icon.svg" alt="mail icon" />
+						<img src="./images/bookmark.svg" alt="bookmark icon" />
+					</div>
+				</div>
+			</section>
+			<section class="profile__picture__wrap profile__picture__wrap--profile">
+				<img
+					class="profile__picture"
+					src="https://source.unsplash.com/random/80x80/?people"
+					alt="people"
+				/>
+			</section>
+			<section class="header__profile__information">
+				<div class="header__profile__details">
+					<h1 class="header__profile__name">User Name</h1>
+					<p class="header__profile__location">Brooklyn, NY</p>
+					<p class="header__profile__quote">
+						Writer by Profession. Artist by Passion!
+					</p>
+				</div>
+				<div class="header__profile__statistic">
+					<div class="header__profile__statistic__stat">
+						<div class="header__profile__followers">
+							<p class="header__profile__followers--bold">2,467</p>
+							<p>Followers</p>
+						</div>
+						<div class="header__profile__following">
+							<p class="header__profile__following--bold">1,589</p>
+							<p>Following</p>
+						</div>
+					</div>
+					<a class="header__profile__button" href="#">Edit Profile</a>
+				</div>
+			</section>
+			<section class="header__profile__nav">
+				<nav class="nav nav--tab">
+					<a class="tab__element" href="#">Posts</a>
+					<a class="tab__element" href="#">Stories</a>
+					<a class="tab__element" href="#">Liked</a>
+					<a class="tab__element" href="#">Tagged</a>
+				</nav>
+			</section>
+		</header>
+
 
     <main>
       <section class="posts">
@@ -145,11 +152,20 @@
       </section>
     </main>
     <footer>
-      <img src="./images/feed.svg" alt="feed icon" />
-      <img src="./images/search.svg" alt="seach icon" />
-      <img src="./images/Plus.svg" alt="plus icon" />
-      <img src="./images/bell.svg" alt="bell icon" />
-      <img src="./images/profil.svg" alt="profil icon" />
+      <img class="footer_icon_feed" src="./images/feed.svg" alt="feed icon" />
+      <img
+        class="footer_icon_search"
+        src="./images/search.svg"
+        alt="seach icon"
+      />
+      <img class="footer_icon_plus" src="./images/Plus.svg" alt="plus icon" />
+      <img class="footer_icon_bell" src="./images/bell.svg" alt="bell icon" />
+      <img
+        class="footer_icon_profil"
+        src="./images/profil.svg"
+        alt="profil icon"
+      />
     </footer>
   </body>
+
 </html>

@@ -1,0 +1,10 @@
+.header__button--alert {
+	padding: 0.5rem;
+	background-color: transparent;
+	background-image: none;
+	box-shadow: none;
+	border: none;
+	font-size: 0.875rem;
+	font-weight: bold;
+	color: #f62e8e;
+}
