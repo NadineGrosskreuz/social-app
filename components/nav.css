@@ -32,6 +32,9 @@
 .nav--tab {
   border-bottom: solid 3px #727477;
 }
+.nav--tag {
+  overflow-x: scroll;
+}
 
 .tab__element {
   font-size: 1.4rem;

@@ -48,6 +48,7 @@
 }
 
 .card__title__text h2 {
+  padding-left: 0;
   font-size: 1.6rem;
   color: var(--social__white);
 }
