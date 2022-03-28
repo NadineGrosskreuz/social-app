@@ -1,0 +1,46 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 0 10px;
+}
+
+.header__search__nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__headline--search {
+  color: white;
+  font-size: 1.6rem;
+  margin: 24px;
+}
+
+.tag__element {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  color: white;
+  border: solid 1px white;
+  border-radius: 1.3rem;
+  padding: 6px 10px;
+  text-decoration: none;
+}
+.tag__element:hover {
+  border: none;
+  background-color: #2e8af6;
+}
+.nav--tab {
+  border-bottom: solid 3px #727477;
+}
+
+.tab__element {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  color: white;
+  padding: 6px 10px;
+  text-decoration: none;
+}
+
+.tab__element:hover {
+  border-bottom: solid 3px #2e8af6;
+}
